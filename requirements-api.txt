@@ -1,0 +1,13 @@
+# Backend API dependencies — installed inside the Docker container on Render.
+# Versions are pinned to match the environment that trained the model.
+# Do NOT change scikit-learn / pandas / numpy / xgboost without retraining.
+
+fastapi==0.142.4
+uvicorn[standard]==0.34.3
+pydantic==2.13.5
+
+scikit-learn==1.2.2
+pandas==2.1.4
+numpy==1.26.4
+joblib==1.6.0
+xgboost==2.0.3
